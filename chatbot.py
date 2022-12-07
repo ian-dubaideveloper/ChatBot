@@ -11,9 +11,9 @@ def send():
     elif (e.get() == 'how are you?'):
         text.insert(END, "\n" + "Bot: i'm fine and you?")
     elif (e.get() == "i'm fine too"):
-        text.insert(END, "\n" + "Bot: nice to hear that")
+        text.insert(END, "\n" + "Bot: nice to hear from you")
     else:
-        text.insert(END, "\n" + "Bot: Sorry I didnt get it.")
+        text.insert(END, "\n" + "Bot: Sorry I didnt get it right.")
 text = Text(root,bg='blue', fg='white')
 text.grid(row=0,column=0,columnspan=2)
 e = Entry(root,width=80)
